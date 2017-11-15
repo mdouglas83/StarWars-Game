@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	/*line-height: 1.5;*/
+	background: #eeeeee;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	color: #000000;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	color: #f8d4ce;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #331111;
+}
+
+#GameContainer {
+
+}
+
+#Heading {
+	display: block;
+}
+
+.GameRow {
+	display: block;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.CharImg {
+	height: 80px;
+	width: 110px;
+	/*display: block;*/
+}
+
+#Player {
+	margin: 3px;
+	display: block;
+}
+
+.CharPlayer {
+	display: inline-block;
+	height: 120px;
+	width: 140px;
+	padding: 5px;
+	background-color: #ffffff;
+	border: 2px solid #00cc00;
+	text-align: center;
+	/*float: left;*/
+	cursor: pointer;
+}
+
+#Enemies {
+	margin: 3px;
+	display: block;
+}
+
+.CharEnemy {
+	display: inline-block;
+	height: 120px;
+	width: 140px;
+	padding: 5px;
+	background-color: #cc0000;
+	border: 2px solid #000000;
+	text-align: center;
+	/*float: left;*/
+	cursor: pointer;
+}
+
+#BtnAttack {
+	margin: 3px;
+	cursor: pointer;
+}
+
+#Attack {
+	margin: 3px;
+	display: block;
+}
+
+.CharAttack {
+	display: inline-block;
+	height: 120px;
+	width: 140px;
+	padding: 5px;
+	background-color: #000000;
+	border: 2px solid #00cc00;
+	color: #ffffff;
+	text-align: center;
+	/*float: left;*/
+	cursor: pointer;
+}
+
+#Result {
+	padding: 3px;
+	display: block;
+	color: #ffffff;
+}
+
+#BtnRestart {
+	margin: 3px;
+	cursor: pointer;
+}
